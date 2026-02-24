@@ -1,4 +1,4 @@
-// WAP to validate brackets in an expression using stack
+// WAP to validate brackets in an expression using a stack
 #include <stdio.h>
 #include <string.h>
 
@@ -6,11 +6,7 @@ int main()
 {
     char exp[100];
     printf("Enter expression: ");
-    if (fgets(exp, sizeof(exp), stdin) == NULL)
-    {
-        printf("Invalid expression\n");
-        return 0;
-    }
+    scanf("%[^\n]", exp);
 
     exp[strcspn(exp, "\n")] = '\0';
 
