@@ -1,0 +1,35 @@
+#Basic program 1:
+#Basic operatons of data types in python
+
+print("Basic program 1.1: Data types")
+print("Integer: ", 10)
+print("Float: ", 3.14)
+print("String: ", "Hello, World!")
+print("Boolean: ", True)
+print("Character: ", 'A')
+
+print("\nBasic program 1.2: Type checking")
+print("Type of 10: ", type(10))
+print("Type of 3.14: ", type(3.14))
+print("Type of 'Hello, World!': ", type("Hello, World!"))
+print("Type of True: ", type(True))
+print("Type of 'A': ", type('A'))
+
+print("\nBasic program 1.3: Type conversion")
+print("Convert integer to float: ", float(10))
+print("Convert float to integer: ", int(3.14))
+print("Convert integer to string: ", str(10))
+print("Convert float to string: ", str(3.14))
+print("Convert boolean to string: ", str(True))
+print("Convert string to integer: ", int("10"))
+print("Convert string to float: ", float("3.14"))
+print("Convert string to boolean: ", bool("True"))
+
+print("\nBasic program 1.4: Arithmetic operations")
+print("Arithmetic operations with 10 and 5:")
+print("Addition: ", 10 + 5)
+print("Subtraction: ", 10 - 5)
+print("Multiplication: ", 10 * 5)
+print("Division: ", 10 / 5)
+print("Modulus: ", 10 % 5)
+print("Exponentiation: ", 10 ** 2)
