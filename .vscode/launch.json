@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "s4p10",
+      "request": "launch",
+      "mainClass": "s4p10",
+      "projectName": "Practicals_884aef7f"
+    },
+    {
+      "type": "java",
+      "name": "s4p8",
+      "request": "launch",
+      "mainClass": "s4p8",
+      "projectName": "Practicals_884aef7f"
+    },
+    {
+      "type": "java",
+      "name": "s4p9",
+      "request": "launch",
+      "mainClass": "s4p9",
+      "projectName": "Practicals_884aef7f"
+    },
+    {
+      "type": "java",
       "name": "s4p1",
       "request": "launch",
       "mainClass": "s4p1",
