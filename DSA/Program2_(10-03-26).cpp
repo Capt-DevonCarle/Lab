@@ -43,7 +43,7 @@ int EvalPostfix(char postfix[])
 
     for(i = 0; postfix[i] != '\0'; i++)
     {
-        if(postfix[i] == ' ' || postfix[i] == '\t')
+        if(postfix[i] == ' ' || postfix[i] == '\t   ')
         {
             hasTokenSeparators = 1;
             break;
